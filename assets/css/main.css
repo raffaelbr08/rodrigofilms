@@ -2385,7 +2385,11 @@
 		}
 
 			.image.main img {
-				width: 100%;
+				    width: 100%;
+			    max-width: 400px;
+			    float: left;
+			    margin: 20px;
+				
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3359,6 +3363,9 @@
 
 		}
 
+.vejamais{
+	padding:30px;
+}
 /* Wrapper */
 
 	#wrapper > * > .inner {
